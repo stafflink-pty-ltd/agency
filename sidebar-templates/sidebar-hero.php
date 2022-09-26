@@ -6,8 +6,7 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
-?>
+defined( 'ABSPATH' ) || exit; ?>
 
 <?php if ( is_active_sidebar( 'hero' ) ) : ?>
 

@@ -8,8 +8,7 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
-?>
+defined( 'ABSPATH' ) || exit; ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>

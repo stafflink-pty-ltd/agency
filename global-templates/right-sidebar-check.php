@@ -6,8 +6,7 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
-?>
+defined( 'ABSPATH' ) || exit; ?>
 
 </div><!-- #closing the primary container from /global-templates/left-sidebar-check.php -->
 

@@ -8,7 +8,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-$container = get_theme_mod( 'understrap_container_type' );
+
 ?>
 
 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
@@ -18,7 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</h2>
 
 
-	<div class="<?php echo esc_attr( $container ); ?>">
+	<div class="container">
 
 		<!-- Your site title as branding in the menu -->
 		<?php if ( ! has_custom_logo() ) { ?>

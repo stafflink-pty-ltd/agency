@@ -8,8 +8,7 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
-?>
+defined( 'ABSPATH' ) || exit; ?>
 
 <section class="no-results not-found">
 
