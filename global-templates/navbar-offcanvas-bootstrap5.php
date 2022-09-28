@@ -11,7 +11,12 @@ defined( 'ABSPATH' ) || exit;
 
 ?>
 
-<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
+<div class="alert alert-info alert-dismissible fade show mb-0" role="alert">
+	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	Welcome to the BABS Alpha! Please be patient with us as we continue to build out the features to provide the best experience possible.
+</div>
+
+<nav id="main-nav" class="navbar navbar-expand-xl sticky-top bg-light navbar-light" aria-labelledby="main-nav-label">
 
 	<h2 id="main-nav-label" class="screen-reader-text">
 		<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
@@ -44,7 +49,7 @@ defined( 'ABSPATH' ) || exit;
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="navbarNavOffcanvas">
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNavOffcanvas">
 
 			<div class="offcanvas-header justify-content-end">
 				<button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>

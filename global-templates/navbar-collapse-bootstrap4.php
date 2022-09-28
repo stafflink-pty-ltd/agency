@@ -18,9 +18,8 @@ defined( 'ABSPATH' ) || exit;
 	</h2>
 
 
-<?php if ( 'container' === $container ) : ?>
 	<div class="container">
-<?php endif; ?>
+
 
 		<!-- Your site title as branding in the menu -->
 		<?php if ( ! has_custom_logo() ) { ?>
@@ -62,8 +61,8 @@ defined( 'ABSPATH' ) || exit;
 		);
 		?>
 
-<?php if ( 'container' === $container ) : ?>
+
 	</div><!-- .container -->
-<?php endif; ?>
+
 
 </nav><!-- .site-navigation -->

@@ -20,7 +20,16 @@ $includes = array(
 	'customizer.php',                      // Customizer additions.
 	'class-wp-bootstrap-navwalker.php',    // Load custom WordPress nav walker. Trying to get deeper navigation? Check out: https://github.com/understrap/understrap/issues/567.
 	'editor.php',                          // Load Editor functions.
+	'property-search.php',
+	'disable-comments.php',
 );
 foreach ( $includes as $file ) {
 	require_once get_theme_file_path( 'inc/' . $file );
 }
+
+add_filter('use_block_editor_for_post', '__return_false', 10);
+
+function example_theme_support() {
+    remove_theme_support( 'widgets-block-editor' );
+}
+add_action( 'after_setup_theme', 'example_theme_support' );

@@ -1,1 +1,99 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+nav {
+	.navbar-brand {
+		img {
+			max-width: 250px;
+		}
+	}
+}
+
+.nav-item {
+	margin-left: 30px;
+}
+
+.navbar-dark .navbar-toggler {
+	color: #333;
+}
+
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color: #121212;
+			font-weight: 500;
+			font-size: 15px;
+		}
+		.btn {
+			.nav-link {
+				color: $white;
+				padding-top: inherit;
+				padding-bottom: inherit;
+			}
+		}
+
+	}
+}
+
+#wrapper-footer-full {
+	ul {
+		li {
+			margin-bottom: 20px;
+		}
+	}
+	h3 {
+		margin-bottom: 30px;
+		color: $gray-300;
+	}
+	background-color: $gray-800;
+	ul {
+		padding-left: 0px;
+		li {
+			list-style: none;
+			@extend .link-light;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: $gray-300;
+	}
+	img {
+		max-width: 150px!important;
+	}
+}
+
+#search-submit {
+	position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#search-filters {
+	position: absolute;
+    top: 10px;
+    right: 97px;
+}
+
+.result-item {
+	img {
+		max-width: 20px;
+	}
+}
+
+.entry-summary {
+	&.suburb {
+
+	}
+}
+
+.border-success {
+    border-color: rgba(25, 135, 84, 0.3) !important;
+}
+
+.border-info {
+    border-color: rgba(13, 202, 240, 0.3) !important;
+}
+
+#flushCollapse {
+	.accordion-body {
+		padding: 0px;
+	}
+}
+
